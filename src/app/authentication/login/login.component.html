@@ -1,0 +1,40 @@
+<section class="sec-ht">
+    <div class="centered-div">
+        <div class="mt-5" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+            <!--buttons-->
+            <div fxLayout="row">
+                <button class="btn btn-light" routerLink="/auth/login" routerLinkActive="active-link">LogIn</button>
+                <button class="btn btn-light" routerLink="/auth/signup" routerLinkActive="active-link">signup</button>
+            </div>
+            <!--fields-->
+            <div fxLayout fxLayoutAlign="center center">
+                <div fxFlex="400px" fxFlex.xs="100%">
+                    <div fxLayoutAlign="center center">
+                        <h4> WELLCOME BACK</h4>
+                    </div>
+                    <!-- <mat-form-field appearance="outline">
+                    <mat-label>Outline form field</mat-label>
+                    <input matInput placeholder="Placeholder">
+                    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                    <mat-hint>Hint</mat-hint>
+                </mat-form-field> -->
+                    <form class=" w-100" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="20px">
+                        <div class="form-group" class=" w-100">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group" class=" w-100">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-50">Submit</button>
+                        <a>forget password?</a>
+
+                    </form>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
