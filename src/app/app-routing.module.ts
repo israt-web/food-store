@@ -14,8 +14,8 @@ import { AuthenticationComponent } from './authentication/authentication/authent
 
 const routes: Routes = [
       { path: '' , component: HomeComponent },
-      { path: 'shopping-cart' , component: ShoppingCartComponent , canActivate: [AuthGuardService] },
-      { path: 'check-out' , component: CheckOutComponent , canActivate: [AuthGuardService]},
+      { path: 'shopping-cart' , component: ShoppingCartComponent  },
+      { path: 'check-out' , component: CheckOutComponent},
       { path: 'order-success' , component: OrderSuccessComponent },
       // { path: 'login' , component: LoginComponent },
       {
