@@ -49,6 +49,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatSelectModule} from '@angular/material/select';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 
 // Authentication module
 import { AuthenticationRoutingModule } from './authentication/authentication-routing.module';
@@ -88,6 +89,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
     MatSelectModule,
     MatIconModule,
     MatButtonModule,
+    MatCardModule,
     AuthenticationModule
 
   ],

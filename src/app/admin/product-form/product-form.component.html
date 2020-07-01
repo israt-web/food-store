@@ -1,7 +1,62 @@
-<mat-form-field appearance="outline">
-    <mat-label>Outline form field</mat-label>
-    <input matInput placeholder="Placeholder">
-    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-    <mat-hint>Hint</mat-hint>
-</mat-form-field>
-<button mat-raised-button color="warn">Warn</button>
+<div class="product-form" fxLayout class="mt-5">
+    <mat-card class="product-form-card">
+        <div fxLayout="column" fxLayoutGap="15px">
+            <div fxFlex fxLayoutAlign="start center">
+                <h4>add product</h4>
+            </div>
+            <form fxLayout="column" fxLayoutGap="10px" fxLayoutAlign="center center">
+                <!--Title & Price-->
+                <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center">
+                    <div fxFlex="50">
+                        <mat-form-field appearance="outline">
+                            <mat-label>Title</mat-label>
+                            <input matInput placeholder="provide title" name="title" [formControl]="titleFormControl">
+                            <mat-error *ngIf="titleFormControl.hasError('required')">
+                                Title is required
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+
+                    <div fxFlex="50">
+                        <mat-form-field appearance="outline">
+                            <mat-label>Price</mat-label>
+                            <input matInput placeholder="provide price" name="price" [formControl]="priceFormControl">
+                            <mat-error *ngIf="priceFormControl.hasError('required')">
+                                Price is required
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+                </div>
+
+                <!--category & imgURL -->
+                <div fxFlex fxLayout="row" fxLayoutGap="20px">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Category</mat-label>
+                        <mat-select [(ngModel)]="selectedValue" name="category" [formControl]="categoryFormControl">
+                            <mat-option *ngFor="let category of categories" [value]="category.value">
+                                {{category.viewValue}}
+                            </mat-option>
+                        </mat-select>
+                        <mat-error *ngIf="categoryFormControl.hasError('required')">
+                            Category is required
+                        </mat-error>
+                    </mat-form-field>
+
+                    <mat-form-field appearance="outline">
+                        <mat-label>ImageURL</mat-label>
+                        <input matInput placeholder="provide ImgURL" name="imageURL" [formControl]="imageUrlFormControl">
+                        <mat-error *ngIf="categoryFormControl.hasError('required')">
+                            ImageURL is required
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+
+                <!--save-->
+                <div fxFlex fxLayoutAlign="center">
+                    <button mat-raised-button color="warn">Warn</button>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+
+</div>
