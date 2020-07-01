@@ -1,10 +1,10 @@
-  .product-form-card {
-      width: 50%;
-      height: 100%;
-  }
+.product-form-card {
+  width: 50%;
+  height: 100%;
+}
 
-  .product-card-heading {
-      color: green;
-      font-weight: 400;
-      font-size: 16px;
-  }
+.product-card-heading {
+  color: green;
+  font-weight: 400;
+  font-size: 16px;
+}

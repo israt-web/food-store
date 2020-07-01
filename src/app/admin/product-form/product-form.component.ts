@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, Validators, FormGroup} from '@angular/forms';
+import { FormControl, Validators, FormGroup } from '@angular/forms';
 
 interface Categories {
   value: string;
@@ -14,9 +14,9 @@ export class ProductFormComponent implements OnInit {
   selectedValue: string;
 
   categories: Categories[] = [
-    {value: 'steak-0', viewValue: 'Steak'},
-    {value: 'pizza-1', viewValue: 'Pizza'},
-    {value: 'tacos-2', viewValue: 'Tacos'}
+    { value: 'steak-0', viewValue: 'Steak' },
+    { value: 'pizza-1', viewValue: 'Pizza' },
+    { value: 'tacos-2', viewValue: 'Tacos' }
   ];
 
   categoryFormControl = new FormControl('', [
@@ -26,11 +26,11 @@ export class ProductFormComponent implements OnInit {
   imageUrlFormControl = new FormControl('', [
     Validators.required
   ]);
-  titleFormControl = new FormControl('',[
+  titleFormControl = new FormControl('', [
     Validators.required
   ]);
 
-  priceFormControl = new FormControl('',[
+  priceFormControl = new FormControl('', [
     Validators.required
   ]);
   constructor() { }
