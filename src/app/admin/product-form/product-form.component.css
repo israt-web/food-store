@@ -1,10 +1,19 @@
 .product-form-card {
-  width: 50%;
-  height: 100%;
+    width: 50%;
+    height: 100%;
 }
 
 .product-card-heading {
-  color: green;
-  font-weight: 400;
-  font-size: 16px;
+    color: green;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
 }

@@ -45,8 +45,14 @@ get product() {
   return this.productForm.controls;
 }
 
-save(product){
-  console.log(product);
+save() {
+  console.log(this.productForm.value);
+  if (this.productForm.valid) {
+    return this.productForm.reset();
+  }
+}
+reset() {
+  this.productForm.reset();
 }
 }
 
