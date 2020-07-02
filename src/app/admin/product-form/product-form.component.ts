@@ -28,24 +28,26 @@ export class ProductFormComponent implements OnInit {
     { value: 'tacos-2', viewValue: 'Tacos' }
   ];
 
-  constructor(public formBuilder: FormBuilder) {
+  constructor(public formBuilder: FormBuilder) {}
+
+  ngOnInit() {
+    const reg = '(https?://)?([\\da-z.-]+)\\.([a-z.]{2,6})[/\\w .-]*/?';
 
     this.productForm = this.formBuilder.group({
       title: ['', Validators.required],
       price: ['', Validators.required],
-      category: ['', [Validators.required, Validators.minLength(10)]],
-      // imageURL: ['', [Validators.required, Validators.minLength(10)]]
-
+      category: ['', Validators.required],
+      imageURL:['', [Validators.required, Validators.pattern(reg)]]
     });
-
-
-   }
-
-  ngOnInit() {
-
   }
 
+get product() {
+  return this.productForm.controls;
+}
 
+save(product){
+  console.log(product);
+}
 }
 
 
