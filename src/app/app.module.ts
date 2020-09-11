@@ -32,6 +32,9 @@ import { MaterialModule } from './material/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NotificationService } from './service/notification.service';
 import { SidenavService } from './service/sidenav.service';
+import { CheckoutRoutingModule } from './checkout/checkout-routing.module';
+import { AuthGuard } from './service/auth.guard';
+
 
 
 @NgModule({
@@ -48,6 +51,7 @@ import { SidenavService } from './service/sidenav.service';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    CheckoutRoutingModule,
     FlexLayoutModule,
     AuthModule,
     MaterialModule,
@@ -69,7 +73,9 @@ import { SidenavService } from './service/sidenav.service';
 
   providers: [
     NotificationService,
-    SidenavService
+    SidenavService,
+    AuthGuard
+  
   ],
   bootstrap: [AppComponent]
 })

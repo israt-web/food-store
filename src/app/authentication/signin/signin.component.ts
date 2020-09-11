@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, FormBuilder, Validators, ValidatorFn } from '@angular/forms';
 import { AuthService } from '../auth.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { NotificationService } from 'src/app/service/notification.service';
 
 @Component({
@@ -25,12 +25,14 @@ export class SigninComponent implements OnInit {
   emailRegEx: any;
   hidePassword: boolean;
   loginRequest: any;
+  returnUrl: string;
 
   constructor(  public fb: FormBuilder,
                 public authService: AuthService,
                 public snackbar: MatSnackBar,
                 public router: Router,
-                public notificaService: NotificationService) { }
+                public notificaService: NotificationService,
+                private activeRouter: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.createRegistraionForm();
@@ -43,6 +45,9 @@ export class SigninComponent implements OnInit {
     setTimeout(() => {
       this.setLoginFormValidator();
     }, 100);
+
+    // get return url from parameters or default to '/'
+    this.returnUrl = this.activeRouter.snapshot.queryParams.returnUrl || '/';
   }
 
   createRegistraionForm() {
@@ -109,13 +114,13 @@ export class SigninComponent implements OnInit {
     this.authService.login(this.loginRequest).subscribe((response) => {
       if (response.code === 200) {
         localStorage.setItem('userData', response.data);
-        this.snackbar.open('Logged in successfully', 'ok'), {
+        this.snackbar.open(response.info, 'ok'), {
             duration: 5000, };
-        this.router.navigateByUrl('/');
+        this.router.navigateByUrl(this.returnUrl);
         this.notificaService.notifyForUserDataChange();
       } else {
-        this.snackbar.open('Something went wrong', 'ok'), {
-            duration: 5000,};
+        this.snackbar.open(response.info, 'ok'), {
+            duration: 5000, };
       }
 
     });
