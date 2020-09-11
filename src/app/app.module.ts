@@ -16,23 +16,30 @@ import {
 
 import { SliderModule } from 'angular-image-slider';
 import { FormsModule } from '@angular/forms';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+// import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import {MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
-import {A11yModule} from '@angular/cdk/a11y';
+// import {A11yModule} from '@angular/cdk/a11y';
 import { MatInputModule } from '@angular/material/input';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatSelectModule} from '@angular/material/select';
 import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
+import { AuthModule } from './authentication/auth.module';
+import { HeaderComponent } from './header/header.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { MaterialModule } from './material/material.module';
+import { HttpClientModule } from '@angular/common/http';
+import { NotificationService } from './service/notification.service';
+import { SidenavService } from './service/sidenav.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    HeaderComponent,
+    SideNavComponent,
   ],
   entryComponents: [
  
@@ -42,18 +49,10 @@ import {MatCardModule} from '@angular/material/card';
     BrowserAnimationsModule,
     AppRoutingModule,
     FlexLayoutModule,
-    SliderModule,
-    FormsModule,
-    NgbModule,
-    MatFormFieldModule,
-    ReactiveFormsModule,
-    A11yModule,
-    MatInputModule,
-    MatDialogModule,
-    MatSelectModule,
-    MatIconModule,
-    MatButtonModule,
-    MatCardModule,
+    AuthModule,
+    MaterialModule,
+    HttpClientModule,
+ 
 
   ],
   exports: [
@@ -65,9 +64,12 @@ import {MatCardModule} from '@angular/material/card';
     FormsModule,
     MatFormFieldModule,
     ReactiveFormsModule,
+   
   ],
 
   providers: [
+    NotificationService,
+    SidenavService
   ],
   bootstrap: [AppComponent]
 })

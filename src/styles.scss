@@ -1,5 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.app-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    @media screen and (max-width: 599px) {
+        max-width: 100%;
+        padding: 0;
+    }
+    @media screen and (max-width:1440px) {
+        max-width: 1256px;
+    }
+    .mat-raised-button {
+        background-color: #4cc3a4 !important;
+    }
+}
