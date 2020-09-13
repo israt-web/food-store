@@ -8,10 +8,11 @@ import { AuthComponent } from './auth/auth.component';
 import { MaterialModule } from '../material/material.module';
 import { AuthService } from './auth.service';
 import { HttpClientModule } from '@angular/common/http';
+import { OtpComponent } from './auth/otp/otp.component';
 
 
 @NgModule({
-  declarations: [SigninComponent, SignupComponent, AuthComponent],
+  declarations: [SigninComponent, SignupComponent, AuthComponent, OtpComponent],
   imports: [
     CommonModule,
     AuthRoutingModule,

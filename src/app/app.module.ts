@@ -34,6 +34,8 @@ import { NotificationService } from './service/notification.service';
 import { SidenavService } from './service/sidenav.service';
 import { CheckoutRoutingModule } from './checkout/checkout-routing.module';
 import { AuthGuard } from './service/auth.guard';
+import { CheckoutModule } from './checkout/checkout.module';
+import { ProductModule } from './product/product.module';
 
 
 
@@ -51,7 +53,8 @@ import { AuthGuard } from './service/auth.guard';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    CheckoutRoutingModule,
+    CheckoutModule,
+    ProductModule,
     FlexLayoutModule,
     AuthModule,
     MaterialModule,

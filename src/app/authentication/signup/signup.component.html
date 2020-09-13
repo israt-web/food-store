@@ -1,1 +1,64 @@
-<p>signup works!</p>
+<mat-card fxLayout="column" fxLayoutGap="20px" class="signin-card">
+    <div fxLayoutAlign="center center">
+        <img src="assets/images/login" width="100px">
+    </div>
+    <form fxFlex fxLayout="column" fxLayoutGap="20px" [formGroup]="signupForm" (ngSubmit)="signup()">
+        <mat-radio-group formControlName="type" style="padding: 25px;" fxLayout fxLayoutAlign="space-around center">
+            <mat-radio-button value="email" class="name-det" [checked]="true">Email</mat-radio-button>
+            <mat-radio-button value="mobile" class="name-det">Mobile</mat-radio-button>
+        </mat-radio-group>
+        <!--Email Id & Mobile Number-->
+        <div fxLayout="column" fxLayoutGap="5px">
+            <!--Email-->
+            <mat-form-field appearance="outline" *ngIf="!isMobileSignup">
+                <mat-label>Email Id </mat-label>
+                <input matInput type="text" class="input-data" formControlName="userId">
+                <mat-icon matSuffix>{{signupTypeIcon}}</mat-icon>
+                <!-- <mat-error *ngIf="loginForm.get('emailId')?.errors?.required">
+                    Please enter your emailId
+                </mat-error> -->
+            </mat-form-field>
+            <!--Mobile-->
+            <mat-form-field appearance="outline" *ngIf="isMobileSignup">
+                <mat-label>Mobile number ({{ countryCode }})</mat-label>
+                <input matInput type="tel" class="input-data" formControlName="userId" (keypress)="numberOnly($event)" minlength="10">
+                <mat-icon matSuffix>{{signupTypeIcon}}</mat-icon>
+                <!-- <mat-error *ngIf="loginForm.get('emailId')?.errors?.required">
+                    Please enter your mobile number
+                </mat-error> -->
+            </mat-form-field>
+            <!--Name-->
+            <mat-form-field appearance="outline">
+                <mat-label>Name</mat-label>
+                <input matInput type="text" class="input-data" formControlName="name">
+                <mat-icon matSuffix>person</mat-icon>
+                <!-- <mat-error *ngIf="loginForm.get('emailId')?.errors?.required">
+                    Please enter your mobile number
+                </mat-error> -->
+            </mat-form-field>
+
+            <!--password-->
+            <!-- <mat-form-field appearance="outline">
+                <mat-label> Password</mat-label>
+                <input matInput [type]="hidePassword ? 'password' : 'text'" placeholder="password" formControlName="password">
+                <mat-icon matSuffix (click)="hidePassword = !hidePassword">
+                    {{hidePassword ? 'visibility_off' : 'visibility'}}
+                </mat-icon>
+                <mat-error *ngIf="loginForm.get('mobileNumber')?.errors?.required">
+                    Please enter your password
+                </mat-error>
+            </mat-form-field> -->
+
+        </div>
+        <!--Login btn-->
+        <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="20px">
+            <button mat-raised-button color="accent" type="submit" [disabled]="signupForm.invalid || isInProgress">Register
+                Now</button>
+            <div fxLayout="row" fxLayoutGap="5px">
+                <span>Already have an account!</span>
+                <a style="cursor: pointer;" [routerLink]="['/auth/login']">Login</a>
+            </div>
+        </div>
+    </form>
+
+</mat-card>

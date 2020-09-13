@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 import { AuthComponent } from './auth/auth.component';
+import { OtpComponent } from './auth/otp/otp.component';
 
 const authRoutes: Routes = [
   {
@@ -19,6 +20,12 @@ const authRoutes: Routes = [
         path: 'signup',
         component: SignupComponent
       },
+      {
+        path: 'verifyOtp',
+        component: OtpComponent,
+        data: { title: 'verifyOtp', submitGTag: true}
+      }
+   
 
     ],
   },

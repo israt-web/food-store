@@ -15,4 +15,9 @@ export class AppComponent {
   //   router.navigateByUrl(returnUrl);
   //  }
   }
+
+  ngOnInit(): void {
+    this.authService.getCountryCode().subscribe();
+
+  }
 }

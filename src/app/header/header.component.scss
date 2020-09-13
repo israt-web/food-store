@@ -1,4 +1,9 @@
-header {
+.top-header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    // header {}
+    z-index: 99;
     .header-items {
         cursor: pointer;
         font-family: serif;

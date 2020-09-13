@@ -1,0 +1,954 @@
+{
+    "id": "SEEDS",
+    "value": "Seeds",
+    "level3Count": 0,
+    "listOfLevel2Cards": [{
+            "createdTS": "2019-08-30T13:53:45.115Z",
+            "LUT": "2019-08-30T13:53:45.115Z",
+            "description": "AUPAJ + (MRC 7301BG-II)- the Cotton seed is an embryonic plant enclosed in a protective outer covering. The formation of the seed is part of the process of reproduction in seed plants, the spermatophytes, including the gymnosperm and angiosperm plants.\nCotton seeds are the seeds of the cotton plant. Cotton seeds are ovoid, 3.5-10 mm long. They are densely covered with white or rusty, long and woolly hairs, called the lint, which is the main product used to make cotton textiles, and shorter hairs (liters). Commercially available cotton seeds are usually the by-product of the production of cotton fiber by a cotton gin, which separates the lint from the seeds.",
+            "subCategories": "Seeds",
+            "productId_level2": "0ang",
+            "productName_level2": "UPAJ + (MRC 7301BG-II)- Cotton",
+            "sellerId": "M01mknh0PRFREG2019062046208739UNH001",
+            "sellerName": "Maharashtra Hybrid Seeds Company Private Limited (Mahyco)",
+            "sellerLocation": "",
+            "level2published": true,
+            "productId_level3": "0anj",
+            "productName_level3": "\"MAHYCO - UPAJ + (MRC 7301BG-II) - COTTON\"",
+            "mrp": 730,
+            "pricePerSKU": "730",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "type": "text",
+                    "units": [],
+                    "enabled": false
+                },
+                "shape": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "weight": {
+                    "type": "text_option",
+                    "unit": "grams",
+                    "units": [],
+                    "value": 450,
+                    "enabled": true
+                },
+                "diameter": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "setCount": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "dimensions": {
+                    "type": "text_option",
+                    "units": [],
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false
+                },
+                "sizeByName": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "smartLabel": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "sizeByNumber": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                }
+            },
+            "productPicURL_level3": "/data/p_images/O01mknh0CTLGPROLEVEL32019062138247631UNH001_1561113447717.jpg",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2019-08-30T13:54:06.919Z",
+            "LUT": "2019-08-30T13:54:06.919Z",
+            "description": "Tulasi -4 BG II is a variety of Cotton Seed Manufactured by Tulasi Seeds Pvt Ltd. Cotton, one of the world’s leading agricultural crops, is plentiful and economically produced, making cotton products relatively inexpensive. Cotton seeds are the seeds of the cotton plant. Cotton seeds are ovoid, 3.5-10 mm long. They are densely covered with white or rusty, long and woolly hairs, called the lint, which is the main product used to make cotton textiles, and shorter hairs. Commercially available cotton seeds are usually the by-product of the production of cotton fibre by a cotton gin, which separates the lint from the seeds. Consequently, seed production is dominated by factors determining the production of cotton fiber and the seed is about 15-20% of the value of the cotton crop.",
+            "subCategories": "Seeds",
+            "productId_level2": "0att",
+            "productName_level2": "Tulasi -4 BG II",
+            "approxDeliveryTime": "One Week",
+            "sellerId": "M01mkfw0PRFREG2019061718862285UNH001",
+            "sellerName": "Tulasi Seeds Pvt. Ltd.",
+            "sellerLocation": "",
+            "level2published": true,
+            "productId_level3": "0atu",
+            "productName_level3": "Tulasi-4 BG II",
+            "mrp": 730,
+            "pricePerSKU": "730",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "type": "text",
+                    "units": [],
+                    "enabled": false
+                },
+                "shape": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "weight": {
+                    "type": "text_option",
+                    "unit": "grams",
+                    "units": [],
+                    "value": 450,
+                    "enabled": true
+                },
+                "diameter": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "setCount": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "dimensions": {
+                    "type": "text_option",
+                    "units": [],
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false
+                },
+                "sizeByName": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "smartLabel": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "sizeByNumber": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                }
+            },
+            "productPicURL_level3": "/data/p_images/O01mkfw0CTLGPROLEVEL32019062226817303UNH001_1563174853500.jpg",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2019-08-30T14:03:35.814Z",
+            "LUT": "2019-08-30T14:03:35.814Z",
+            "description": "Organic Kodo Millet Seeds are cultivated by Gopikrishna. These seeds are grown under Zero Budget Natural farming (ZBNF) method. Organic Kodo millets contain high amounts of polyphenols, an antioxidant compound, they also have high on fiber, low in fat. Kodo millet inhibited glycation and cross-linking of collagen. Kodo millets are good for diabetes. Zero Budget Natural Farming (ZBNF) is a farming practice that believes in the natural growth of crops without adding any fertilizers and pesticides or any other foreign elements. The word Zero Budget refers to the zero net cost of production of all crops (intercrops, border crops, multi crops). The inputs used for seed treatments and other inoculations are locally available in the form of cow dung and cow urine. A ZBNF practicing farmer has a lower cost of inputs and thus has a better capacity to increase the incomes. At the same time, ZBNF crops help in retaining soil fertilizing and are climate change resilient.",
+            "subCategories": "Seeds",
+            "productId_level2": "0hxm",
+            "productName_level2": "Organic Kodo Millet Seeds(Arikelu)",
+            "approxDeliveryTime": "One week",
+            "sellerId": "M01ku3o0PRFREG2018082537400606UNH001",
+            "sellerName": "K. Gopala Krishna",
+            "sellerLocation": "",
+            "level2published": true,
+            "productId_level3": "0i15",
+            "productName_level3": "Organic Kodo Millet Seeds(Arikelu)",
+            "mrp": 130,
+            "pricePerSKU": "110",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "type": "text",
+                    "units": [],
+                    "enabled": false
+                },
+                "shape": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "weight": {
+                    "type": "text_option",
+                    "unit": "kg",
+                    "units": [],
+                    "value": 1,
+                    "enabled": true
+                },
+                "diameter": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "setCount": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "dimensions": {
+                    "type": "text_option",
+                    "units": [],
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false
+                },
+                "sizeByName": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "smartLabel": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "sizeByNumber": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                }
+            },
+            "productPicURL_level3": "/data/p_images/O01ku3o0CTLGPROLEVEL32019071917025160UNH001_1563511425352.jpg",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2019-08-30T14:04:23.891Z",
+            "LUT": "2019-08-30T14:04:23.891Z",
+            "description": "Veda Seeds is big seed production in India. our seeds give the triple time of crop to other seeds. SADANAND BG II is a Seed That can be produced by the Veda seeds. That can Give good results in the Cotton Crop For the High Production And Good growth To The plants",
+            "subCategories": "Seeds",
+            "productId_level2": "0au1",
+            "productName_level2": "SADANAND BG II",
+            "approxDeliveryTime": "One Week",
+            "sellerId": "M01mko90PRFREG2019062226306694UNH001",
+            "sellerName": "Veda Seeds",
+            "sellerLocation": "",
+            "level2published": true,
+            "productId_level3": "0au5",
+            "productName_level3": "SADANAND BG II",
+            "mrp": 730,
+            "pricePerSKU": "730",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "type": "text",
+                    "units": [],
+                    "enabled": false
+                },
+                "shape": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "weight": {
+                    "type": "text_option",
+                    "unit": "grams",
+                    "units": [],
+                    "value": 450,
+                    "enabled": true
+                },
+                "diameter": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "setCount": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "dimensions": {
+                    "type": "text_option",
+                    "units": [],
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false
+                },
+                "sizeByName": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "smartLabel": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "sizeByNumber": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                }
+            },
+            "productPicURL_level3": "/data/p_images/O01mko90CTLGPROLEVEL32019062227948132UNH001_1561189548281.jpg",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2019-09-26T06:58:11.867Z",
+            "LUT": "2019-09-26T06:58:11.867Z",
+            "description": "Organic Brown Top Millet Seeds(Andu Korralu) are cultivated by Gopikrishna. Which is a set method grown under Zero Budget Natural Farming(ZBNF) Method. Zero Budget Natural Farming (ZBNF) is a farming practice that believes in the natural growth of crops without adding any fertilizers and pesticides or any other foreign elements. The word Zero Budget refers to the zero net cost of production of all crops (intercrops, border crops, multi crops). The inputs used for seed treatments and other inoculations are locally available in the form of cow dung and cow urine. A ZBNF practicing farmer has a lower cost of inputs and thus has a better capacity to increase the incomes. At the same time, ZBNF crops help in retaining soil fertilizing and are climate change resilient.",
+            "subCategories": "Plant Nutrition",
+            "masterLevel2Id": "0hxp",
+            "productId_level2": "0lcu",
+            "productName_level2": "Organic Brown Top Millet Seeds(Andu Korralu)",
+            "approxDeliveryTime": "One Week",
+            "sellerId": "M01lprd0PRFREG2019040134274466UNH001",
+            "sellerName": "A A Paptil",
+            "sellerLocation": "Dharwad, Karnataka IND",
+            "level2published": true,
+            "productId_level3": "0lcw",
+            "productName_level3": "Organic Brown Top Millet Seeds(Andu Korralu)",
+            "mrp": 150,
+            "pricePerSKU": "150",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "type": "text",
+                    "units": [],
+                    "enabled": false
+                },
+                "shape": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "weight": {
+                    "type": "text_option",
+                    "unit": "kg",
+                    "units": [],
+                    "value": 1,
+                    "enabled": true
+                },
+                "diameter": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "setCount": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "dimensions": {
+                    "type": "text_option",
+                    "units": [],
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false
+                },
+                "sizeByName": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "smartLabel": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                },
+                "sizeByNumber": {
+                    "type": "text_option",
+                    "units": [],
+                    "enabled": false
+                }
+            },
+            "productPicURL_level3": "/data/p_images/O01ku3o0CTLGPROLEVEL32019072029446146UNH001_1563610246225.jpeg",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2019-12-23T10:18:17.393Z",
+            "LUT": "2019-12-23T10:18:17.393Z",
+            "description": "Sandhya NMH 666 is a very high yielding hybrid of Kharif & Rabi season and has a unique plant structure that makes it respond to higher populations. Maize was the first major cereal crop in human civilization to be affected by hybridization. It is the most widely distributed crop of the world being grown in diverse seasons and ecologies with the highest production and productivity among food cereals. ",
+            "subCategories": "Others",
+            "productId_level2": "1kyl",
+            "productName_level2": "Sandhya NMH 666 Maize Seeds",
+            "sellerId": "M01mken0PRFREG2019061324449694UNH001",
+            "sellerName": "Nuziveedu Seeds",
+            "sellerLocation": "Ranga Reddy, Telangana IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019081252486393UNH001_1565620486393.jpg",
+            "productId_level3": "1kyo",
+            "productName_level3": "Sandhya NMH 666 Nuziveedu Maize Seeds",
+            "mrp": "0",
+            "pricePerSKU": "0",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 4,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "kg",
+                        "grams"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1577083446909.jpeg",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2019-12-24T06:26:47.448Z",
+            "LUT": "2019-12-24T06:26:47.448Z",
+            "description": "F1 Hybrid-2136 Okra Seeds are manufactured by ASHOKA Seeds. Okra is one of the prettiest vegetables you can grow. It is essential for gumbos and stews and many southern dishes. Okra is not the most popular vegetable in the garden but it's growing in popularity. Grows fast and tall up to 7′ high.",
+            "productId_level2": "0mkx",
+            "productName_level2": "F1 Hybrid-2136 Okra Seeds",
+            "approxDeliveryTime": null,
+            "sellerId": "M01mn0k0PRFREG2019080522375311UNH001",
+            "sellerName": "ASHOKA FARM AIDS (Ashoka Seeds )",
+            "sellerLocation": "Bangalore Urban, Karnataka IND",
+            "level2published": true,
+            "productId_level3": "0mky",
+            "productName_level3": "Ashoka F1 Hybrid-2136 Okra Seeds",
+            "mrp": "190",
+            "pricePerSKU": "190",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": null
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": null
+                },
+                "weight": {
+                    "unit": "grams",
+                    "value": 50,
+                    "enabled": true,
+                    "type": "text_option",
+                    "units": [
+                        "kg",
+                        "grams"
+                    ]
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": null
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": null
+                },
+                "dimensions": {
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text",
+                    "units": null,
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": null
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": null
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1565931195451.png",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2019-12-24T09:19:43.267Z",
+            "LUT": "2019-12-24T09:19:43.267Z",
+            "description": "F1 Hybrid-2136 Okra Seeds are manufactured by ASHOKA Seeds. Okra is one of the prettiest vegetables you can grow. It is essential for gumbos and stews and many southern dishes. F1 Hybrid-2136 seed variety of plant Grows fast and tall up to 7′ high.These seeds are planted in less time period and are easily grown in different soil conditions. These seeds are free from all types of impurities",
+            "masterLevel2Id": "0mkx",
+            "productId_level2": "1l28",
+            "productName_level2": "F1 Hybrid-2136 Okra Seeds",
+            "approxDeliveryTime": null,
+            "sellerId": "M01mkl80PRFREG2019061844581992UNH001",
+            "sellerName": "Sri Keerthi Cotton Seeds",
+            "sellerLocation": "Guntur, Andhra Pradesh IND",
+            "level2published": true,
+            "productId_level3": "1l2e",
+            "productName_level3": " F1 Hybrid - 2136 Okra Seeds",
+            "mrp": "2800",
+            "pricePerSKU": "2800",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "type": "text",
+                    "units": null,
+                    "enabled": false
+                },
+                "shape": {
+                    "type": "text",
+                    "units": null,
+                    "enabled": false
+                },
+                "weight": {
+                    "type": "text_option",
+                    "unit": "kg",
+                    "units": [
+                        "kg",
+                        "grams"
+                    ],
+                    "value": 1,
+                    "enabled": true
+                },
+                "diameter": {
+                    "type": "text",
+                    "units": null,
+                    "enabled": false
+                },
+                "setCount": {
+                    "type": "text",
+                    "units": null,
+                    "enabled": false
+                },
+                "dimensions": {
+                    "type": "text",
+                    "units": null,
+                    "width": {
+                        "enabled": false
+                    },
+                    "height": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    }
+                },
+                "sizeByName": {
+                    "type": "text",
+                    "units": null,
+                    "enabled": false
+                },
+                "smartLabel": {
+                    "type": "text",
+                    "enabled": false
+                },
+                "sizeByNumber": {
+                    "type": "text",
+                    "units": null,
+                    "enabled": false
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1577168795289.png",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2020-01-23T11:18:41.369Z",
+            "LUT": "2020-01-23T11:18:41.369Z",
+            "description": "Surya (NTH-1009) Tomato Seeds is a very early, dwarf variety intended for cultivation in the field. It produces nicely colored, red, shiny, elongated fruit that delight with their intense taste. They are firm, lack the characteristic greenback and completely resistant to breaking. They are suited for direct consumption \"straight from the bush\" or preparing delicious preserves. Tomato is a vegetable of high dietary and gustatory value. Its berries contain large amounts of vitamins C, B1 and B2, as well as potassium, phosphorus, and calcium. These plants need regular fertilizing, preferably with bio humus or enriching the soil with compost.",
+            "subCategories": "Others",
+            "masterLevel2Id": "1mhu",
+            "productId_level2": "1mi8",
+            "productName_level2": "Surya (NTH-1009) Tomato Seeds",
+            "sellerId": "M01neho0PRFREG2020012032631774UNH001",
+            "sellerName": "Karshakaananda Agrochemicals",
+            "sellerLocation": "Vizianagaram, Andhra Pradesh IND",
+            "level2published": true,
+            "productId_level3": "1mia",
+            "productName_level3": "Surya (NTH-1009) Tomato Seeds",
+            "mrp": "400",
+            "pricePerSKU": "400",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 10,
+                    "unit": "grams",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1579580908547.jpeg",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2020-07-29T11:53:21.729Z",
+            "LUT": "2020-07-29T11:53:21.729Z",
+            "description": "•\t135 Days crop\n•\tStrong tillers and tolerant of lodging\n•\tAttractive, Lustrous & Bold Grains\n•\tTolerance to Brown rust and Helminthosporium leaf spot disease\n•\tExcellent 'Chapati' making quality\n•\tSuitable for both early & late sowing",
+            "subCategories": "Others",
+            "productId_level2": "33py",
+            "productName_level2": "Annapurna",
+            "approxDeliveryTime": null,
+            "sellerId": "M01oyw40PRFREG2020061517302318UNH001",
+            "sellerName": "Indo Gulf Fertilisers",
+            "sellerLocation": "Amethi, Uttar Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019081253268605UNH001_1565621268605.jpg",
+            "productId_level3": "33pz",
+            "productName_level3": "Annapurna Improved Wheat Seed",
+            "mrp": "800",
+            "pricePerSKU": "600",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 10,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg",
+                        "ton",
+                        "quintal"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1594903053235.png",
+            "selectedSKU": [
+                "weight"
+            ]
+        },
+        {
+            "createdTS": "2020-08-21T12:22:27.248Z",
+            "LUT": "2020-08-21T12:22:27.248Z",
+            "description": "'Chitti Muthyalu' is one more popular variety which is an extremely fine, short-grain rice and aromatic rice variety often used to prepare pulao and biryani. With a relatively low glycemic index of 50, it is table rice that can be served every day.",
+            "subCategories": "Others",
+            "productId_level2": "34zt",
+            "productName_level2": "Chitti Muthyalu Paddy Seeds",
+            "approxDeliveryTime": null,
+            "baseProductName": "Paddy",
+            "sellerId": "M010u7m0PRFREG2018032335237244UNH001",
+            "sellerName": "Narasimha Rao",
+            "sellerLocation": "Nellore, Andhra Pradesh IND",
+            "level2published": true,
+            "productPicURL_level2": "/data/p_images/O00k4jn0CTLGVPRODUCT2019081253923988UNH001_1565621923988.jpg",
+            "productId_level3": "34zu",
+            "productName_level3": "Chitti Muthyalu Paddy Seeds",
+            "mrp": "180",
+            "pricePerSKU": "150",
+            "level3published": true,
+            "isBulkOrder": false,
+            "SKUSmartElements": {
+                "color": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "sizeByName": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "weight": {
+                    "enabled": true,
+                    "value": 1,
+                    "unit": "kg",
+                    "type": "text_option",
+                    "units": [
+                        "grams",
+                        "kg",
+                        "quintal",
+                        "ton"
+                    ]
+                },
+                "sizeByNumber": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "shape": {
+                    "enabled": false,
+                    "type": "text",
+                    "units": []
+                },
+                "setCount": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "dimensions": {
+                    "height": {
+                        "enabled": false
+                    },
+                    "width": {
+                        "enabled": false
+                    },
+                    "length": {
+                        "enabled": false
+                    },
+                    "diameter": {
+                        "enabled": false
+                    },
+                    "circumference": {
+                        "enabled": false
+                    },
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                },
+                "smartLabel": {
+                    "enabled": false,
+                    "type": "text"
+                },
+                "diameter": {
+                    "enabled": false,
+                    "type": "text_option",
+                    "units": []
+                }
+            },
+            "productPicURL_level3": "/data/p_images/1598005280024.jpeg",
+            "selectedSKU": [
+                "weight"
+            ],
+            "shipping": false,
+            "teluguName": "వరి",
+            "freeShippingEligible": false
+        }
+    ]
+}
