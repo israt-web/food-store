@@ -1,0 +1,22 @@
+<div fxLayout="column">
+    <h2>Profile Information</h2>
+    <mat-form-field appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Your name" [value]="user?.firstName">
+        <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Your email" [value]="user?.mobileNo">
+        <mat-icon matSuffix>email</mat-icon>
+    </mat-form-field>
+
+
+    <mat-form-field appearance="outline">
+        <mat-label>Number</mat-label>
+        <input matInput placeholder="Your mobile number" [value]="user?.emailId">
+        <mat-icon matSuffix>phone_android</mat-icon>
+    </mat-form-field>
+
+</div>

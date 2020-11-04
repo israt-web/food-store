@@ -15,13 +15,13 @@ export class PTileComponent implements OnInit {
  @Input() name: string;
  @Input() seller: string;
  @Input() sellerLocation: string;
+ @Input() subCategories: string;
   listOfLevel2Cards: any[] = [];
   constructor(private prodService: ProductService) { }
 
   ngOnInit(): void {
-    // debugger
     this.prodService.getProduct().subscribe((data) => {
-      // console.log(data);
+      console.log(data);
       this.product =  data;
     });
     this.image = 'https://inputs.kalgudi.com' + (this.image);

@@ -36,6 +36,7 @@ import { CheckoutRoutingModule } from './checkout/checkout-routing.module';
 import { AuthGuard } from './service/auth.guard';
 import { CheckoutModule } from './checkout/checkout.module';
 import { ProductModule } from './product/product.module';
+import { ProfileModule } from './profile/profile.module';
 
 
 
@@ -55,24 +56,14 @@ import { ProductModule } from './product/product.module';
     AppRoutingModule,
     CheckoutModule,
     ProductModule,
-    FlexLayoutModule,
+    ProfileModule,
     AuthModule,
     MaterialModule,
     HttpClientModule,
  
 
   ],
-  exports: [
-    MatInputModule,
-    MatDialogModule,
-    MatSelectModule,
-    MatIconModule,
-    SliderModule,
-    FormsModule,
-    MatFormFieldModule,
-    ReactiveFormsModule,
-   
-  ],
+  exports: [],
 
   providers: [
     NotificationService,
