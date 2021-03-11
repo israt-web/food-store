@@ -16,6 +16,14 @@ const routes: Routes = [
         path: 'account' ,
         loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule)
       },
+      {
+        path: 'auth',
+        loadChildren: () => import('./authentication/auth.module').then(m => m.AuthModule)
+      },
+      {
+        path: 'checkout',
+        loadChildren: () => import('./checkout/checkout.module').then(m => m.CheckoutModule)
+      }
 
     
 

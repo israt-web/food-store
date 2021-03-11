@@ -1,0 +1,51 @@
+.product-full-wrapper {
+    padding: 24px;
+    .product-details {
+        .product-name {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #935757;
+        }
+        .product-price {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: crimson;
+        }
+        .rating-review-wrapper {
+            .rating-review {
+                background: cornflowerblue;
+                padding: 1px 0px 0px 8px;
+                mat-icon {
+                    font-size: 1rem;
+                    color: white;
+                    line-height: 22px;
+                }
+                span {
+                    font-size: 1rem;
+                    color: white;
+                }
+            }
+            .rating-review-number {
+                font-size: 1rem;
+                font-weight: 500;
+                color: darkgreen;
+            }
+        }
+        .no-rating-and-review-test {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #746b6b;
+        }
+        .product-description {
+            font-size: 0.9rem;
+            font-weight: 400;
+        }
+        .add-to-cart-btn {
+            color: black;
+            background: #0097a7;
+            color: white;
+            width: fit-content;
+        }
+    }
+}

@@ -8,23 +8,47 @@ import { AuthComponent } from './auth/auth.component';
 import { OtpComponent } from './auth/otp/otp.component';
 
 const authRoutes: Routes = [
+  // {
+  //   path: 'auth',
+  //   component: AuthComponent,
+  //   children: [
+  //     {
+  //       path: 'login',
+  //       component: SigninComponent,
+  //     },
+  //     {
+  //       path: 'signup',
+  //       component: SignupComponent
+  //     },
+  //     {
+  //       path: 'verifyOtp',
+  //       component: OtpComponent,
+  //       data: { title: 'verifyOtp', submitGTag: true}
+  //     }
+   
+
+  //   ],
+  // },
+  
   {
-    path: 'auth',
-    component: AuthComponent,
+    path: '',
+    component: AuthComponent ,
     children: [
       {
-        path: 'login',
-        component: SigninComponent,
+        path: 'login' ,  component: SigninComponent
       },
       {
-        path: 'signup',
-        component: SignupComponent
-      },
-      {
-        path: 'verifyOtp',
-        component: OtpComponent,
-        data: { title: 'verifyOtp', submitGTag: true}
-      }
+              path: 'signup',
+              component: SignupComponent
+            },
+
+            {
+                    path: 'verifyOtp',
+                    component: OtpComponent,
+                    data: { title: 'verifyOtp', submitGTag: true}
+                  },
+      { path: '', redirectTo: '/auth/login', pathMatch: 'prefix'},
+    
    
 
     ],

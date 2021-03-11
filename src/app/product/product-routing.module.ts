@@ -3,18 +3,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes,RouterModule } from '@angular/router';
-import { ProductComponent } from './product/product.component';
-import { PTileComponent } from './p-tile/p-tile.component';
+import { PTileComponent } from './component/p-tile/p-tile.component';
+import { ProductComponent } from './component/product/product.component';
+import { ProductFullViewComponent } from './component/product-full-view/product-full-view.component';
+
 
 
 const prodRoutes: Routes = [
   {
-    path: 'product' ,
+    path: '' ,
     component: ProductComponent,
     children: [
       {
         path: 'product-list',
         component: PTileComponent
+      },
+      {
+        path: ':categoryId/:productName/:productId',
+        component: ProductFullViewComponent
       }
     ]
   }

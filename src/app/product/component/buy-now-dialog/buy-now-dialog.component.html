@@ -1,0 +1,31 @@
+<div class="product-full-wrapper" fxLayout="row" fxLayoutGap="15px">
+
+    <img [src]="data?.productPicURL_level3" width="100" height="100" alt="{{data?.productName_level2}}">
+    <div fxLayout="column" fxLayoutGap="10px" class="product-details">
+        <span class="product-name">{{data?.productName_level2}}</span>
+        <span class="product-price">{{data?.mrp | currency:'INR' }}</span>
+        <div class="rating-review-wrapper" fxLayout="row" fxLayoutGap="5px" *ngIf="data?.reviewsAndRatingsTo; else noRattingAndReview">
+
+            <div fxLayout="row" fxLayoutAlign="space-between center" class="rating-review">
+                <span>{{ data?.reviewsAndRatingsTo?.avgRating}}</span>
+                <mat-icon>start</mat-icon>
+
+            </div>
+            <span class="rating-review-number" fxLayoutAlign="center center">{{data?.reviewsAndRatingsTo?.totalRatings}} Ratings & {{data?.reviewsAndRatingsTo?.totalReviews}} Review</span>
+
+        </div>
+        <ng-template #noRattingAndReview>
+            <span class="no-rating-and-review-test">No rating & review</span>
+        </ng-template>
+
+        <span class="product-description"> {{data?.description}}</span>
+
+        <!-- <div fxLayout="row" fxLayoutGap="10px" class="add-to-cart-btn"> -->
+        <!-- <input type="number"> -->
+        <button class="add-to-cart-btn" mat-button>ADD</button>
+        <!-- </div> -->
+
+    </div>
+
+</div>
+<!-- {{data | json}} -->

@@ -37,6 +37,7 @@ import { AuthGuard } from './service/auth.guard';
 import { CheckoutModule } from './checkout/checkout.module';
 import { ProductModule } from './product/product.module';
 import { ProfileModule } from './profile/profile.module';
+import { AllCategoriesComponent } from './all-categories/all-categories.component';
 
 
 
@@ -46,6 +47,7 @@ import { ProfileModule } from './profile/profile.module';
     HomeComponent,
     HeaderComponent,
     SideNavComponent,
+    AllCategoriesComponent,
   ],
   entryComponents: [
  

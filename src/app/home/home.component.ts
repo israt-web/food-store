@@ -1,5 +1,7 @@
-import { Component, OnInit, ViewChild ,Input} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { map } from 'rxjs/operators';
 import { ProductService } from '../product/service/product.service';
+import { Products } from '../project-common/Models/products';
 
 
 @Component({
@@ -8,25 +10,31 @@ import { ProductService } from '../product/service/product.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  product: any= [];
 
-  @Input('products') products: any;
+  public product: any[];
 
-  constructor(private prodService: ProductService) { }
-
-
-
-
-  ngOnInit() {
-    this.prodService.getProduct().subscribe((data) => {
-      console.log(data);
-      this.product =  data;
-    });
+  constructor(
+    private prodService: ProductService
+  ) {
 
   }
 
+  ngOnInit() {
+    this.getAllProductList();
+  }
 
- 
+  /**
+   * Get all products
+   */
+
+  public getAllProductList() {
+    // debugger
+    this.prodService.getProduct().subscribe(response => {
+      this.product = response.data;
+      console.log(this.product)
+    });
+  }
+
 }
 
 

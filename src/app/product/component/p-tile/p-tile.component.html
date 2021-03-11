@@ -1,0 +1,44 @@
+<!-- [routerLink]="productPath" -->
+<a style="cursor: pointer; text-decoration: none">
+  <mat-card class="product-card" fxLayout="column" fxLayoutGap="5px">
+    <div *ngIf="false" fxFlex fxLayout="row" fxLayoutAlign="space-between">
+      <div class="tag">
+        <div class="pre-order">
+          <ng-container>
+            <span>{{ product?.subCategories }}</span>
+          </ng-container>
+        </div>
+      </div>
+
+      <mat-icon class="more-icon">more_horiz</mat-icon>
+    </div>
+    <div fxFlex fxLayoutAlign="center center">
+      <img
+        [src]="product?.productPicURL_level3 || 'assets/images/mango.png'"
+        width="150"
+      />
+    </div>
+    <div class="mt-5" fxLayout="column" fxLayoutGap="10px">
+      <h1 class="product-name">{{ product?.productName_level2 }}</h1>
+      <span class="seller_name">From: {{ product?.sellerName }}</span>
+
+      <span>{{ product?.sellerLocation }}</span>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div class="price" fxLayout="row" fxLayoutAlign="center center">
+        <span class="ml-1 mr-1"> {{ product?.mrp | currency: "INR" }} </span>
+        <span class="mr-1">/kg</span>
+      </div>
+      <div
+        (click)="$event.stopPropagation(); addToCart(product)"
+        class="buy-button"
+        fxLayout="row"
+        fxLayoutGap="5px"
+        fxLayoutAlign="center center"
+      >
+        <mat-icon class="shopping-icon">shopping_basket</mat-icon>
+        <a class="buy">BUY</a>
+      </div>
+    </div>
+  </mat-card>
+</a>

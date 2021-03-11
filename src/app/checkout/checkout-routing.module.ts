@@ -8,7 +8,7 @@ import { AuthGuard } from '../service/auth.guard';
 
 const checkoutRoutes: Routes = [
     {
-        path: 'checkout' , component: CheckoutComponent, canActivate: [AuthGuard]   }
+        path: '' , component: CheckoutComponent, canActivate: [AuthGuard]   }
 ];
 @NgModule({
     imports: [
