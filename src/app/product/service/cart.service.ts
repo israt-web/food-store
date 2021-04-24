@@ -1,20 +1,30 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
+import { map, take } from 'rxjs/operators';
 
 @Injectable()
 export class CartService {
-  items = new Subject();
+  private itemsSubject = new BehaviorSubject<any[]>([]);
+  items$ = this.itemsSubject.asObservable();
 
-  addToCart(product) {
-    this.items.next(product);
+  constructor() {
+    let cartItems = JSON.parse(localStorage.getItem('productsInCart'));
+    if (!cartItems) {
+      cartItems = []
+    }
+    this.itemsSubject.next(cartItems);
+  }
+  public addToCart(item) {
+    // debugger
+    this.items$.pipe(
+      take(1),
+      map((product => {
+        product.push((item));
+        localStorage.setItem('productsInCart', JSON.stringify(product));
+      }
+      ))
+    ).subscribe();
+
   }
 
-  getItems() {
-    return this.items.asObservable();
-  }
-
-  // clearCart() {
-  //   this.items = [];
-  //   return this.items;
-  // }
 }

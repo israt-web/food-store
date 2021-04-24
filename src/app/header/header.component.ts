@@ -13,19 +13,18 @@ export class HeaderComponent implements OnInit {
   userData: any;
   isUserLoggedIn: boolean;
   loggedInUserName: any;
-  private cartProductCount: number = 0;
+  items$ = this.cartService.items$;
 
   constructor(
     public authService: AuthService,
     public notification: NotificationService,
     public sidenav: SidenavService,
-    public cart: CartService
+    private cartService: CartService
   ) { }
 
   ngOnInit(): void {
     this.getUserData();
     this.notification.userData.subscribe((response) => {
-
       this.getUserData();
     });
 
@@ -41,6 +40,9 @@ export class HeaderComponent implements OnInit {
       this.loggedInUserName = this.userData.firstName;
     }
   }
+
+
+
   logout() {
     this.authService.logout();
     this.notification.notifyForUserDataChange();

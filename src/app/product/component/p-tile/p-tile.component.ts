@@ -32,16 +32,13 @@ export class PTileComponent implements OnInit {
   }
 
   get productPath() {
-
     return this.prodService.getProductFullViewRoutingPath(this.product);
   }
 
   public addToCart() {
     this.cartService.addToCart(this.product);
-
     const name = this.product.productName_level2;
-
-    this.snackbar.open(`${name} added to cart`, 'ok', {
+    this.snackbar.open(`${name} added to cart`, '', {
       duration: 5000
     });
   }

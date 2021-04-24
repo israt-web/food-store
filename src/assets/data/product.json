@@ -2147,7 +2147,7 @@
                     "productId_level3": "372i",
                     "productName_level3": "Pomegranate",
                     "mrp": "500",
-                    "pricePerSKU": "500",
+                    "pricePerSKU": "400",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -35891,7 +35891,7 @@
                     "productId_level3": "33jg",
                     "productName_level3": "100% Pure Filter Coffee",
                     "mrp": "135",
-                    "pricePerSKU": "135",
+                    "pricePerSKU": "130",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {

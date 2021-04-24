@@ -12,7 +12,7 @@
 $Online-shop-primary: mat-palette($mat-cyan, 700);
 $Online-shop-accent: mat-palette($mat-light-blue, 500);
 // The warn palette is optional (defaults to red).
-$Online-shop-warn: mat-palette($mat-indigo);
+$Online-shop-warn: mat-palette($mat-red);
 // Create the theme object (a Sass map containing all of the palettes).
 $Online-shop-theme: mat-light-theme($Online-shop-primary, $Online-shop-accent, $Online-shop-warn);
 // Include theme styles for core and each component used in your app.

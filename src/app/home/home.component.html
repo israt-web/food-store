@@ -1,5 +1,6 @@
 <div class="app-container" style="margin-top: 80px">
   <app-all-categories></app-all-categories>
+  <b>{{product?.BEVERAGES.id}}</b>
   <div fxLayout="row wrap" fxLayoutGap="50px">
     <!-- BEVERAGES -->
     <ng-container *ngFor="let category of product?.BEVERAGES.listOfLevel2Cards">
@@ -7,25 +8,24 @@
     </ng-container>
 
     <!-- FOREST_PRODUCTS -->
-    <ng-container
-      *ngFor="let category of product?.FOREST_PRODUCTS.listOfLevel2Cards"
-    >
+    <ng-container *ngFor="let category of product?.FOREST_PRODUCTS.listOfLevel2Cards">
       <app-p-tile [product]="category"></app-p-tile>
     </ng-container>
 
     <!-- DRY_FRUITS_NUTS_AND_SEEDS -->
-    <ng-container
-      *ngFor="
+    <ng-container *ngFor="
         let category of product?.DRY_FRUITS_NUTS_AND_SEEDS.listOfLevel2Cards
-      "
-    >
+      ">
       <app-p-tile [product]="category"></app-p-tile>
     </ng-container>
 
     <!-- FRUITS_AND_VEGETABLES -->
-    <ng-container
-      *ngFor="let category of product?.FRUITS_AND_VEGETABLES.listOfLevel2Cards"
-    >
+    <ng-container *ngFor="let category of product?.FRUITS_AND_VEGETABLES.listOfLevel2Cards">
+      <app-p-tile [product]="category"></app-p-tile>
+    </ng-container>
+
+    <!-- HEALTH_AND_HERBAL -->
+    <ng-container *ngFor="let category of product?.HEALTH_AND_HERBAL.listOfLevel2Cards">
       <app-p-tile [product]="category"></app-p-tile>
     </ng-container>
 

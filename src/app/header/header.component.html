@@ -1,43 +1,48 @@
 <mat-toolbar class="top-header" color="primary">
-    <header class="app-container" fxFlex fxLayoutAlign="space-between">
-        <!-- <mat-icon fxHide fxShow.xs (click)="sidenav.toggleSidenav()">menu</mat-icon> -->
+  <header class="app-container" fxFlex fxLayoutAlign="space-between">
+    <!-- <mat-icon fxHide fxShow.xs (click)="sidenav.toggleSidenav()">menu</mat-icon> -->
 
-        <span class="header-items" [routerLink]="['/']">
-            <!-- <img src="assets/images/israt-logo.jpg" width="80px">     -->
-            <mat-icon class="mat-18">home</mat-icon>
-        </span>
-        <div fxLayout="row" fxLayoutGap="15px">
-            <mat-icon [routerLink]="['/checkout']">add_shopping_cart</mat-icon>
+    <span class="header-items" [routerLink]="['/']">
+      <!-- <img src="assets/images/israt-logo.jpg" width="80px">     -->
+      <mat-icon class="mat-18">home</mat-icon>
+    </span>
+    <div fxLayout="row" fxLayoutGap="15px">
+      <mat-icon [routerLink]="['/checkout']" [matBadge]="(items$ | async).length" matBadgeColor="accent">add_shopping_cart</mat-icon>
+      <!-- <p class="total_count_checkout">{{(items$ | async).length}}</p> -->
+      <!-- SignIn or Profile details  -->
+      <div fxLayoutGap="10px">
+        <ng-container
+          *ngIf="isUserLoggedIn; then loggedIn; else loggedOut"
+        ></ng-container>
+        <ng-template #loggedOut>
+          <a class="header-items header-link" routerLink="/auth/login"
+            >Sign In</a
+          >
+        </ng-template>
+        <ng-template #loggedIn>
+          <div
+            class="k-dropdown"
+            fxLayoutAlign="center"
+            #r="matMenuTrigger"
+            [matMenuTriggerFor]="menu"
+            (mouseover)="open(r)"
+          >
+            <a class="header-items header-link" [matTooltip]="loggedInUserName">
+              <span> {{ loggedInUserName }}</span>
+            </a>
+          </div>
 
-
-            <!-- SignIn or Profile details  -->
-            <div fxLayoutGap="10px">
-                <ng-container *ngIf="isUserLoggedIn; then loggedIn; else loggedOut"></ng-container>
-                <ng-template #loggedOut>
-                    <a class="header-items header-link" routerLink="/auth/login">Sign In</a>
-                </ng-template>
-                <ng-template #loggedIn>
-                    <div class="k-dropdown" fxLayoutAlign="center" #r="matMenuTrigger" [matMenuTriggerFor]="menu" (mouseover)="open(r)">
-                        <a class="header-items header-link" [matTooltip]="loggedInUserName">
-                            <span> {{ loggedInUserName }}</span>
-                        </a>
-                    </div>
-
-                    <mat-menu #menu="matMenu" [overlapTrigger]="false">
-
-                        <div fxLayout="column" fxLayoutGap="5px">
-
-                            <a routerLink="/account/profile" fxLayoutAlign="center">My profile</a>
-                            <a (click)="logout()" fxLayoutAlign="center">Logout</a>
-
-                        </div>
-                    </mat-menu>
-
-                </ng-template>
+          <mat-menu #menu="matMenu" [overlapTrigger]="false">
+            <div fxLayout="column" fxLayoutGap="5px">
+              <a routerLink="/account/profile" fxLayoutAlign="center"
+                >My profile</a
+              >
+              <a (click)="logout()" fxLayoutAlign="center">Logout</a>
             </div>
-            <!-- / SignIn or Profile details  -->
-
-        </div>
-
-    </header>
+          </mat-menu>
+        </ng-template>
+      </div>
+      <!-- / SignIn or Profile details  -->
+    </div>
+  </header>
 </mat-toolbar>

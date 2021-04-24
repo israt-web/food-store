@@ -9,16 +9,15 @@ import { CartService } from 'src/app/product/service/cart.service';
 export class CheckoutComponent implements OnInit {
 
   cartItems: any;
-  constructor(private cartService: CartService) { }
+  constructor() { }
 
   ngOnInit(): void {
+    this.getCartItems();
   }
 
-  public getCartItems() {
-    // debugger
-    // this.cartService.getItems().subscribe(cartItems => {
-    // // this.cartItems =  cartItems;
-    // console.log(cartItems)
-    // });
+  getCartItems() {
+    const cartItems = JSON.parse(localStorage.getItem('productsInCart'));
+    this.cartItems = cartItems;
+    console.log(cartItems);
   }
 }
