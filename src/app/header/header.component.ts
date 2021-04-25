@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   userData: any;
   isUserLoggedIn: boolean;
   loggedInUserName: any;
-  items$ = this.cartService.items$;
+  productsInCart: any[];
 
   constructor(
     public authService: AuthService,
@@ -28,6 +28,15 @@ export class HeaderComponent implements OnInit {
       this.getUserData();
     });
 
+
+
+  }
+
+  calcTotal() {
+    this.cartService.items$.subscribe(p => {
+      this.productsInCart = p;
+    });
+    return this.productsInCart.reduce((acc, pr) => acc += pr.productQuantity, 0);
   }
 
   getUserData() {

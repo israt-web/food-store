@@ -14,7 +14,7 @@ export class ProfileComponent implements OnInit {
   ngOnInit(): void {
     const userCredentials = JSON.parse(localStorage.getItem('userData'));
     this.userData = userCredentials;
-    console.log(this.userData)
+    // console.log(this.userData)
   }
 
 }

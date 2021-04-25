@@ -7,7 +7,7 @@
       <mat-icon class="mat-18">home</mat-icon>
     </span>
     <div fxLayout="row" fxLayoutGap="15px">
-      <mat-icon [routerLink]="['/checkout']" [matBadge]="(items$ | async).length" matBadgeColor="accent">add_shopping_cart</mat-icon>
+      <mat-icon [routerLink]="['/checkout']" [matBadge]="calcTotal()" matBadgeColor="accent">add_shopping_cart</mat-icon>
       <!-- <p class="total_count_checkout">{{(items$ | async).length}}</p> -->
       <!-- SignIn or Profile details  -->
       <div fxLayoutGap="10px">

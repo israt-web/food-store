@@ -18,6 +18,6 @@ export class CheckoutComponent implements OnInit {
   getCartItems() {
     const cartItems = JSON.parse(localStorage.getItem('productsInCart'));
     this.cartItems = cartItems;
-    console.log(cartItems);
+    // console.log(cartItems);
   }
 }

@@ -43,12 +43,15 @@
   </mat-card>
 </a>
 <div class="product-card">
-  <div class="badge">Hot</div>
+  <div class="badge" *ngIf="product?.mrp != product?.pricePerSKU">
+    {{ getOfferPercent(product)  | number:'1.0-0' }}% 
+    <span>off</span>
+  </div>
   <div class="product-tumb">
     <img [src]="product?.productPicURL_level3" alt="">
   </div>
   <div class="product-details">
-    <span class="product-catagory" *ngIf="product?.subCategories">{{ product?.subCategories }}</span>
+    <!-- <span class="product-catagory" *ngIf="product?.subCategories">{{ product?.subCategories }}</span> -->
     <h4>{{ product?.productName_level2 }}</h4>
     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p> -->
     <div class="product-bottom-details">

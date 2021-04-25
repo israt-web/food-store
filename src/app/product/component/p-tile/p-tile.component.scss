@@ -71,10 +71,10 @@
     max-width: 230px;
     width: 230px;
     position: relative;
-    margin: 50px auto;
+    margin: 25px auto;
     background: #fafafa;
-    height: 400px;
-    max-height: 400px;
+    height: 345px;
+    max-height: 345px;
     box-shadow: 0 2px 7px #dfdfdf;
     &:hover{
 
@@ -85,12 +85,13 @@
     position: absolute;
     left: 0;
     top: 20px;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 700;
+    // text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
     background: red;
     color: #fff;
     padding: 3px 10px;
+    border-radius: 0px !important;
 }
 
 .product-tumb {

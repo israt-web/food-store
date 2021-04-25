@@ -35,6 +35,14 @@ export class PTileComponent implements OnInit {
     return this.prodService.getProductFullViewRoutingPath(this.product);
   }
 
+  getOfferPercent(product) {
+    const mrp = product.mrp;
+    const price = product.pricePerSKU;
+
+    return 100 - ((100 * price) / mrp);
+
+  }
+
   public addToCart() {
     this.cartService.addToCart(this.product);
     const name = this.product.productName_level2;

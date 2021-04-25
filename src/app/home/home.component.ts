@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
     // debugger
     this.prodService.getProduct().subscribe(response => {
       this.product = response.data;
-      console.log(this.product)
+      // console.log(this.product)
     });
   }
 

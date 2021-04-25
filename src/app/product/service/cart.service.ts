@@ -14,12 +14,23 @@ export class CartService {
     }
     this.itemsSubject.next(cartItems);
   }
-  public addToCart(item) {
-    // debugger
+  public addToCart(item: any) {
     this.items$.pipe(
       take(1),
       map((product => {
-        product.push((item));
+
+        const existingProduct = product.find(({ productName_level2 }) => item.productName_level2 === productName_level2);
+        if (existingProduct) {
+          existingProduct.productQuantity += 1;
+          return;
+        } else {
+          product.push({
+            ...item,
+            productQuantity: 1
+
+          });
+        }
+
         localStorage.setItem('productsInCart', JSON.stringify(product));
       }
       ))

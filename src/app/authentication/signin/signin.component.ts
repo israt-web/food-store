@@ -27,12 +27,12 @@ export class SigninComponent implements OnInit {
   loginRequest: any;
   returnUrl: string;
 
-  constructor(  public fb: FormBuilder,
-                public authService: AuthService,
-                public snackbar: MatSnackBar,
-                public router: Router,
-                public notificaService: NotificationService,
-                private activeRouter: ActivatedRoute) { }
+  constructor(public fb: FormBuilder,
+    public authService: AuthService,
+    public snackbar: MatSnackBar,
+    public router: Router,
+    public notificaService: NotificationService,
+    private activeRouter: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.createRegistraionForm();
@@ -109,21 +109,23 @@ export class SigninComponent implements OnInit {
     };
   }
   login() {
-    console.log(this.loginForm.value);
+    // console.log(this.loginForm.value);
     this.setLoginRequestData();
     this.authService.login(this.loginRequest).subscribe((response) => {
       if (response.code === 200) {
         localStorage.setItem('userData', response.data);
         this.snackbar.open(response.info, 'ok'), {
-            duration: 5000, };
+          duration: 5000,
+        };
         this.router.navigateByUrl(this.returnUrl);
         this.notificaService.notifyForUserDataChange();
       } else {
         this.snackbar.open(response.info, 'ok'), {
-            duration: 5000, };
+          duration: 5000,
+        };
       }
 
     });
-   
+
   }
 }

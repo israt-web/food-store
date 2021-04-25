@@ -22,7 +22,7 @@
                     "productId_level3": "34ra",
                     "productName_level3": "Whole Cashew Nuts",
                     "mrp": "860",
-                    "pricePerSKU": "860",
+                    "pricePerSKU": "790",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -140,7 +140,7 @@
                     "productId_level3": "34rf",
                     "productName_level3": "Split Cashew Nuts",
                     "mrp": "790",
-                    "pricePerSKU": "790",
+                    "pricePerSKU": "690",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -257,7 +257,7 @@
                     "productId_level3": "37lh",
                     "productName_level3": "SN's Roasted Double Seeds",
                     "mrp": "150",
-                    "pricePerSKU": "150",
+                    "pricePerSKU": "100",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -367,7 +367,7 @@
                     "productId_level3": "37lv",
                     "productName_level3": "SN's Roasted Sesame Seeds(Naatu Thella Nuvvulu)",
                     "mrp": "120",
-                    "pricePerSKU": "120",
+                    "pricePerSKU": "100",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -483,7 +483,7 @@
                     "productId_level3": "36p5",
                     "productName_level3": "Dry Anjeer",
                     "mrp": "402",
-                    "pricePerSKU": "402",
+                    "pricePerSKU": "400",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -600,7 +600,7 @@
                     "productId_level3": "36p8",
                     "productName_level3": "Dried Papaya",
                     "mrp": "175",
-                    "pricePerSKU": "175",
+                    "pricePerSKU": "155",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -710,7 +710,7 @@
                     "productId_level3": "36pb",
                     "productName_level3": "Dried Pineapple",
                     "mrp": "175",
-                    "pricePerSKU": "175",
+                    "pricePerSKU": "165",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -827,7 +827,7 @@
                     "productId_level3": "3786",
                     "productName_level3": "SN's Basil Seeds (Sabja Ginjalu)",
                     "mrp": "45",
-                    "pricePerSKU": "45",
+                    "pricePerSKU": "35",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -951,7 +951,7 @@
                     "productId_level3": "36qz",
                     "productName_level3": "Black Kishmish Seedless",
                     "mrp": "112",
-                    "pricePerSKU": "112",
+                    "pricePerSKU": "92",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
@@ -1071,7 +1071,7 @@
                     "productId_level3": "37al",
                     "productName_level3": "SN's Roasted Flax Seeds (Avise Ginjalu)",
                     "mrp": "120",
-                    "pricePerSKU": "120",
+                    "pricePerSKU": "100",
                     "level3published": true,
                     "isBulkOrder": false,
                     "SKUSmartElements": {
